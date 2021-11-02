@@ -20,7 +20,7 @@ body {
 
 .container {
     width: 80%;
-    padding: .5em;
+    padding: 1em;
     margin: 0 auto;
     border-radius: 10px;
     background-color: rgba(0,0,0,.5);
@@ -97,6 +97,11 @@ body {
 
 
 @media only screen and (min-width: 600px) {
+
+    .container {
+        padding: 2em;
+    }
+
     .options-block {
         display: flex;
         align-items: center;
