@@ -19,8 +19,7 @@ body {
 }
 
 .container {
-    height: 75vh;
-    width: 60%;
+    width: 80%;
     padding: .5em;
     margin: 0 auto;
     border-radius: 10px;
@@ -51,9 +50,14 @@ body {
     color: #fff;
     font-size: 1rem;
     display: flex;
+    flex-direction: column;
     padding: .5em;
     align-items: center;
     justify-content: space-around;
+}
+
+.inner-block {
+    padding: .5em;
 }
 
 .user-text-input {
@@ -92,17 +96,18 @@ body {
 }
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
     .options-block {
         display: flex;
         align-items: center;
     }
 
+    .rate-and-pitch-block {
+        display: flex;
+        flex-direction: row;
+    }
+
     .range-toggles {
         padding-right: .5em;
-    }
-    
-    .inner-block {
-        display: flex;
     }
 }
